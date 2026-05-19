@@ -14,10 +14,10 @@ For industrial centrifugal turbocompressors, the compressor is typically modeled
 Compressor maps are commonly used to parameterize the reduced-order model. These maps are M-by-N matrices, where M corresponds to the number of corrected rotational speed lines and N represents discretized operating points along each speed line. The indexing structure is defined by a corrected speed vector of length M and an auxiliary coordinate β ranging from 0 to 1, which describes the progression along each speed line from surge to choke conditions.
 
 The following figure illustrates a typical centrifugal compressor map used for model parameterization in system-level simulations:
-
+<p align="center">
 <img width="698" height="520" alt="CompressorMapExample_01" src="https://github.com/user-attachments/assets/27ff4b09-ec5d-40f5-b6fc-30222b6f8713" /> 
-
-<img width="940" height="440" alt="CompressorMapExample_05" src="https://github.com/user-attachments/assets/814e8f6d-7d99-4834-8c62-581614f5a72e" />
+<p align="center">
+<img width="740" height="440" alt="CompressorMapExample_05" src="https://github.com/user-attachments/assets/814e8f6d-7d99-4834-8c62-581614f5a72e" />
 
 
 The compressor performance is defined using manufacturer-provided maps or experimentally calibrated data, which describe key variables such as mass flow rate, pressure ratio, and isentropic efficiency as functions of suction conditions, discharge pressure, and rotational speed. These maps inherently account for internal irreversible effects, including leakage, incidence losses, and heat transfer, without explicitly resolving the internal three-dimensional flow field. As a result, the compressor is treated as a black-box or grey-box component, enabling efficient and robust system-level simulation of both vapor compression heat pumps and gas compression systems.

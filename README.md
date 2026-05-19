@@ -1,11 +1,12 @@
 ## Description
 
-Developed a heat pump co-simulation framework using Simulink & GT-SUITE, based on a reference thermal architecture. The model comprises different subsystems:
-**Refrigerant Cycle**, **Coolant Cycle** and **Controls**. The control algorithms are implemented in Simulink and are contained in the **Controls** subsystem.
+Developed a heat pump co-simulation framework using Simulink & GT-SUITE based on a reference thermal architecture. The model consists of three main subsystems: **Refrigerant Cycle**, **Coolant Cycle**, and **Controls**. The control algorithms are implemented in Simulink within the **Controls** subsystem.
 
-The refrigerant system was modeled in GT-SUITE and coupled with Simulink to improve simulation accuracy. The working refrigerant in this system is **R717**. The condenser is a tube-and-fin type heat exchanger that dissipates refrigerant heat to the air. The air flow is driven by the fan. The liquid receiver provides storage for the refrigerant and permits only subcooled liquid to flow into the expansion valves. The evaporator is a tube-and-fin type heat exchanger that lets the refrigerant absorb heat from the air. It also dehumidifies the air when the air is humid. The compressor models simulated in this work are representative of various industrial and thermal-management compressor technologies, including **Centrifugal turbocompressors**, and industrial heat-pump compressors commonly used in process cooling, and high-capacity heat-pump applications. Two different approaches are employed to simulate the compressors: (i) a simplified 1D map-based model; and (ii) a hybrid 3D-to-1D modeling approach.
+The refrigerant system is modeled in GT-SUITE and coupled with Simulink to improve simulation accuracy. The working fluid in this system is **R717 (Ammonia)**. The condenser is a tube-and-fin heat exchanger that rejects heat from the refrigerant to ambient air. The air flow is driven by a fan system. A liquid receiver is used to store refrigerant and ensure that only subcooled liquid is supplied to the expansion valves. The evaporator is also a tube-and-fin heat exchanger, where the refrigerant absorbs heat from ambient air and provides dehumidification under humid conditions.
 
-### Compressor
+The compressor models simulated in this work are representative of various industrial and thermal management compressor technologies, including **centrifugal turbocompressors** and industrial heat pump compressors commonly used in process cooling and high-capacity heat pump applications. Two different modeling approaches are employed: (i) a simplified 1D map-based model; and (ii) a hybrid 3D-to-1D reduced-order modeling approach.
+
+## Centrifugal turbocompressor system (process gas / air)
 
 The compressor drives the refrigerant or process gas flow in the system and is a key component in both industrial heat pump and centrifugal gas compression applications. Depending on the application, different compressor technologies are considered, including scroll compressors for automotive thermal systems, and high-speed centrifugal turbocompressors for industrial air and process gas systems.
 

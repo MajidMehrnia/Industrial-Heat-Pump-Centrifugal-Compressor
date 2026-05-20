@@ -25,7 +25,9 @@ The following figure illustrates a typical centrifugal compressor map used for m
 <img width="537" height="278" alt="CompressorMapExample_05" src="https://github.com/user-attachments/assets/6c6b552a-174d-4494-b3c3-678262877813" />
 
  <p align="center">
-  <strong>Co Simulation of Compressor in GT with Simulink</strong>
+  <strong>Co-Simulation of Compressor in GT with Simulink</strong>
+  
+  <p align="center">
 <img width="1280" height="542" alt="GT-SUITE_blocks" src="https://github.com/user-attachments/assets/46b17975-6716-4d76-bbdf-1696ac41fe68" />
 
  The contour plot shows that the interpolated efficiency contours match the source data. Additionally, the points are now in a format that the compressor block can use. If the generated compressor map has oversimplified contours or is missing key details, re-select your data using a denser mesh. You may need to select more points along each speed line, select points along estimated additional speed lines, or select more data points for each efficiency contour level.

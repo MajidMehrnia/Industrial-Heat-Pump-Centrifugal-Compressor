@@ -6,7 +6,8 @@ The refrigerant system is modeled in GT-SUITE and coupled with Simulink to impro
 
 #### End-to-End NPI Workflow: 
 
-<img width="720" height="299" alt="image" src="https://github.com/user-attachments/assets/feba2ce4-b358-4452-9c91-a4e42b70ea48" />
+<img width="955" height="381" alt="image" src="https://github.com/user-attachments/assets/77e97d08-1119-48c3-88eb-29f40058de20" />
+
 
 
 

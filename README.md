@@ -4,7 +4,7 @@ Developed a heat pump co-simulation framework using Simulink & GT-SUITE based on
 
 The refrigerant system is modeled in GT-SUITE and coupled with Simulink to improve simulation accuracy. The working fluid in this system is **R717 (Ammonia)**. The condenser is a tube-and-fin heat exchanger that rejects heat from the refrigerant to ambient air. The air flow is driven by a fan system. A liquid receiver is used to store refrigerant and ensure that only subcooled liquid is supplied to the expansion valves. The evaporator is also a tube-and-fin heat exchanger, where the refrigerant absorbs heat from ambient air and provides dehumidification under humid conditions.
 
-## Methodology for Strategic Governance & Lifecycle Execution: An Approach from Idea to Aftermarket
+## Strategic Governance & Lifecycle Execution: from Idea to Aftermarket
 
 #### End-to-End NPI Workflow: 
 

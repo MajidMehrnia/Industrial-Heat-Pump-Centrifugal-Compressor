@@ -16,7 +16,7 @@ Consequently, the entire product lifecycle in this project is governed by the PL
 The complete executable models and the underlying management tool are available below:
 
 * Access the Simulink and GT-SUITE co-simulation files in the [Simulation](input_data) and [Results](results) directories.
-* Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
+* Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
 ## Strategic Governance & Lifecycle Execution: from Idea to Aftermarket
 

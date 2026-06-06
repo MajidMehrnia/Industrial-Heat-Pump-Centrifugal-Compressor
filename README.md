@@ -7,8 +7,6 @@ This repository delivers a comprehensive, systems-engineering framework for Data
 
 ## Section 2: System Validation & Strategic Governance
 
-## Section 2: System Validation & Strategic Governance
-
 To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework executed primarily within MATLAB/Simulink and Simscape, with a dedicated interface to GT-SUITE. The complete plant model—including the evaporator, condenser, and secondary hydronic coolant loops with their thermal inertia against the ambient tropical sink—is built within Simscape using R717 (Ammonia) as the working fluid. To capture the complex, real-gas multi-physics and dynamic stall behaviors of the centrifugal compressor stage, a high-fidelity model from GT-SUITE is dynamically linked into the main simulation loop. Parallelly, the core control logic in Simulink house-tunes the algorithms that dynamically modulate compressor operating speeds and expansion valve configurations to stabilize process fluid temperatures under volatile server heat loads.
 
 Managing a multi-domain system of this complexity requires rigid configuration control to prevent costly field failures or supply chain bottlenecks. While global enterprises typically deploy heavy, enterprise-grade PLM platforms to govern these workflows such as **Dassault Systèmes ENOVIA (3DEXPERIENCE)** or **Siemens Teamcenter**, the underlying principles of engineering discipline remain completely tool-agnostic. In smaller companies, lean business units, or agile environments, this exact governance is regularly and effectively executed utilizing highly structured, **macro-enabled spreadsheets** integrated with disciplined, email-driven formal sign-offs.

@@ -16,7 +16,7 @@ The refrigerant system is modeled in GT-SUITE and coupled with Simulink to impro
 
 You can also utilise the Excel-based PLM workflow here: 📥 [Download PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
-This PLM Dashboard is structured into 7 core sheets, including **BOM Management**, **Change Management**, **Validation & Release Management**, and **Cost Benefit Analysis**, establishing a "Single Source of Truth" to bridge technical execution with business profitability.
+This PLM Dashboard is structured into 6 core sheets, including **Doc. Management**, **EBOM & MBOM Management**, **Change Management**, **Validation & Release Management**, **Cost Benefit Analysis**, and **Executive Reporting Dashboard**, stablishing a "Single Source of Truth" to bridge technical execution with business profitability.
 
 ## Design & Validation: Centrifugal Turbocompressor System (process gas/air)
 

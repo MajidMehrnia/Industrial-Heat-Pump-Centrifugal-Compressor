@@ -8,7 +8,8 @@ The refrigerant system is modeled in GT-SUITE and coupled with Simulink to impro
 
 #### End-to-End NPI Workflow: 
 
-<img width="929" height="358" alt="image" src="https://github.com/user-attachments/assets/54352884-401a-4ecc-9295-64e0aae37e17" />
+<img width="619" height="278" alt="image" src="https://github.com/user-attachments/assets/e4968066-b54e-45fb-a31e-076e1381dcfe" />
+
 
 
 You can also utilise the Excel-based PLM workflow here: 📥 [Download PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)

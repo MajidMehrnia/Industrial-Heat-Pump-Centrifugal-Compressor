@@ -8,7 +8,7 @@ This repository delivers a comprehensive, systems-engineering framework for Data
 The complete executable models and the underlying management tool are available below:
 
 * Access the Simulink and GT-SUITE co-simulation files in the [Results](results) directory.
-* Utilize the integrated lifecycle management workbook here: [Download PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
+* Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
 
 ## Section 2: System Validation & Engineering Governance

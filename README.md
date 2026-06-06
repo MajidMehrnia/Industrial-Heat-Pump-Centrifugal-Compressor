@@ -5,7 +5,7 @@ This repository delivers a comprehensive, systems-engineering framework for Data
   
 * **Section 2:** The following section focuses on the hardware-level co-simulation framework, transient control validation, and the overarching PLM governance model.
 
-## System Design, Validation & Strategic Governance
+# System Design, Validation & Strategic Governance
 
 To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework executed primarily within MATLAB/Simulink and Simscape, with a dedicated interface to GT-SUITE. The complete plant model, including the evaporator, condenser, and secondary hydronic coolant loops with their thermal inertia against the ambient tropical sink, is built within Simscape using R717 (Ammonia) as the working fluid. To capture the complex, real-gas multi-physics and dynamic stall behaviors of the centrifugal compressor stage, a high-fidelity model from GT-SUITE is dynamically linked into the main simulation loop. Parallelly, the core control logic in Simulink house-tunes the algorithms that dynamically modulate compressor operating speeds and expansion valve configurations to stabilize process fluid temperatures under volatile server heat loads.
 
@@ -18,7 +18,7 @@ The complete executable models and the underlying management tool are available 
 * Access the Simulink and GT-SUITE co-simulation files in the [Simulation](input_data) and [Results](results) directories.
 * Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
-### Strategic Governance & Lifecycle Execution: from Idea to Aftermarket
+## Strategic Governance & Lifecycle Execution: from Idea to Aftermarket
 
 #### End-to-End NPI Workflow: 
 
@@ -32,7 +32,7 @@ You can also utilise the Excel-based PLM workflow here: 📥 [Download PLM Perfo
 
 This PLM Dashboard is structured into 7 core sheets (including **Doc. Management**, **EBOM & MBOM Management**, **Change Management**, **Validation & Release Management**, **Risk Management**, **Cost Benefit Analysis**, and an **Executive Reporting Dashboard**) establishing a "Single Source of Truth" to bridge technical execution and executive transparency with business profitability.
 
-### Design & Validation: Centrifugal Compressor System 
+## Design & Validation: Centrifugal Compressor System 
 
 The compressor models simulated in this work are representative of various industrial and thermal management compressor technologies, including **Centrifugal Compressors** and industrial heat pump compressors commonly used in process cooling and high-capacity heat pump applications. Two different modeling approaches are employed: (i) a simplified 1D map-based model; and (ii) a hybrid 3D-to-1D reduced-order modeling approach.
 

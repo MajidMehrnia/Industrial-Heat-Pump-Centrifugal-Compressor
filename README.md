@@ -18,7 +18,7 @@ The complete executable models and the underlying management tool are available 
 * Access the Simulink and GT-SUITE co-simulation files in the [Simulation](input_data) and [Results](results) directories.
 * Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
-## Strategic Governance & Lifecycle Execution: from Idea to Aftermarket
+### Strategic Governance & Lifecycle Execution: from Idea to Aftermarket
 
 #### End-to-End NPI Workflow: 
 
@@ -32,7 +32,7 @@ You can also utilise the Excel-based PLM workflow here: 📥 [Download PLM Perfo
 
 This PLM Dashboard is structured into 7 core sheets (including **Doc. Management**, **EBOM & MBOM Management**, **Change Management**, **Validation & Release Management**, **Risk Management**, **Cost Benefit Analysis**, and an **Executive Reporting Dashboard**) establishing a "Single Source of Truth" to bridge technical execution and executive transparency with business profitability.
 
-## Design & Validation: Centrifugal Compressor System 
+### Design & Validation: Centrifugal Compressor System 
 
 The compressor models simulated in this work are representative of various industrial and thermal management compressor technologies, including **Centrifugal Compressors** and industrial heat pump compressors commonly used in process cooling and high-capacity heat pump applications. Two different modeling approaches are employed: (i) a simplified 1D map-based model; and (ii) a hybrid 3D-to-1D reduced-order modeling approach.
 

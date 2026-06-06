@@ -7,7 +7,9 @@ This repository delivers a comprehensive, systems-engineering framework for Data
 
 ## Section 2: System Validation & Strategic Governance
 
-To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework that couples GT-SUITE and Simulink. GT-SUITE handles the complex, real-gas multi-physics of the refrigerant cycle, including transient phase changes inside the **centrifugal compressor** stage. Parallelly, the core control logic is built within Simulink, handles **evaporator, chillers and condenser** while simultaneously modeling the hydronic coolant loops and their thermal inertia against the ambient tropical sink house-tuning the algorithms that dynamically modulate compressor operating speeds, and expansion valve configurations to stabilize temperatures under volatile server heat loads. The working fluid in this system is R717 (Ammonia).
+## Section 2: System Validation & Strategic Governance
+
+To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework executed primarily within MATLAB/Simulink and Simscape, with a dedicated interface to GT-SUITE. The complete plant model—including the evaporator, condenser, and secondary hydronic coolant loops with their thermal inertia against the ambient tropical sink—is built within Simscape using R717 (Ammonia) as the working fluid. To capture the complex, real-gas multi-physics and dynamic stall behaviors of the centrifugal compressor stage, a high-fidelity model from GT-SUITE is dynamically linked into the main simulation loop. Parallelly, the core control logic in Simulink house-tunes the algorithms that dynamically modulate compressor operating speeds and expansion valve configurations to stabilize process fluid temperatures under volatile server heat loads.
 
 Managing a multi-domain system of this complexity requires rigid configuration control to prevent costly field failures or supply chain bottlenecks. While global enterprises typically deploy heavy, enterprise-grade PLM platforms to govern these workflows such as **Dassault Systèmes ENOVIA (3DEXPERIENCE)** or **Siemens Teamcenter**, the underlying principles of engineering discipline remain completely tool-agnostic. In smaller companies, lean business units, or agile environments, this exact governance is regularly and effectively executed utilizing highly structured, **macro-enabled spreadsheets** integrated with disciplined, email-driven formal sign-offs.
 
@@ -15,7 +17,7 @@ Consequently, the entire product lifecycle in this project is governed by the PL
 
 The complete executable models and the underlying management tool are available below:
 
-* Access the Simulink and GT-SUITE co-simulation files in the [Results](results) directory.
+* Access the Simulink and GT-SUITE co-simulation files in the [Simulation](input_data) and [Results](results) directories.
 * Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
 ## Strategic Governance & Lifecycle Execution: from Idea to Aftermarket

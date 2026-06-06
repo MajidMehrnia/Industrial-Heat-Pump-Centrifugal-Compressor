@@ -7,7 +7,7 @@ This repository delivers a comprehensive, systems-engineering framework for mode
 
 The complete executable models and the underlying management tool are available below:
 
-* Access the Simulink and GT-SUITE co-simulation files in the [`/simulation`](.Simulink) and [results](results)directory.
+* Access the Simulink and GT-SUITE co-simulation files in the [`Simulation`](Simulink) and [results](results)directory.
 * Utilize the integrated lifecycle management workbook here: **[Download PLM Performance Dashboard (Excel)](PLM-Performance-Dashboard.xlsx?raw=true)**
 
 

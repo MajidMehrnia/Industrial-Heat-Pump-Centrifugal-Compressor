@@ -1,8 +1,15 @@
 ## Description
 This repository delivers a comprehensive, systems-engineering framework for modern Data Centre Process Cooling, designed specifically to tackle the thermodynamic challenges of operating in high-temperature, high-humidity tropical environments. The project bridges the gap between complex multi-physics engineering and strategic product lifecycle governance. To provide a clean, modular overview, the technical documentation and artifacts are divided into two distinct sections: 
 
-* **Section 1:** Covers the macro-level conceptual cooling architecture and links to the foundational system design.
+* **Section 1:** Covers the macro-level conceptual cooling architecture and links to the foundational system design. Available in my companion repository: [Data-Center-Process-Cooling](https://github.com/MajidMehrnia/Data-Center-Process-Cooling)
+  
 * **Section 2:** Focuses on the hardware-level co-simulation framework, transient control validation, and the overarching PLM governance model.
+
+The complete executable models and the underlying management tool are available below:
+
+* Access the Simulink and GT-SUITE co-simulation files in the [`/simulation`](.Simulink) and [results](results)directory.
+* Utilize the integrated lifecycle management workbook here: **[Download PLM Performance Dashboard (Excel)](PLM-Performance-Dashboard.xlsx?raw=true)**
+
 
 ## Section 2: System Validation & Engineering Governance
 To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework that couples GT-SUITE and Simulink. GT-SUITE handles the complex, real-gas multi-physics of the refrigerant cycle—including transient phase changes inside the centrifugal compressor stage. Parallelly, the core control logic is built within Simulink, handles evaporator, chillers and condenser—while simultaneously modeling the hydronic coolant loops and their thermal inertia against the ambient tropical sink house-tuning the algorithms that dynamically modulate compressor operating speeds, and expansion valve configurations to stabilize temperatures under volatile server heat loads.
@@ -79,10 +86,8 @@ expansion valve (EV2), chiller, and evaporator.
 The refrigerant flow is driven by the compressor, which is connected to the HV electrical network. 
 The refrigerant flow continues to the condenser where heat is dissipated to the air. The air flow 
 within the condenser is driven by the vehicle speed the condenser fan. Latter is connected to the 
-LV network.
-
-The refrigerant then flows through EV1 and EV2 and continues to chiller and evaporator. In the 
-chiller, the refrigerant absorbs heat from the coolant cycle. In the evaporator the refrigerant absorbs heat from the cabin air and continues its way back to the compressor. R1234yf is used to accurately represent phase-change and thermodynamic behavior.
+LV network. The refrigerant then flows through EV1 and EV2 and continues to chiller and evaporator. In the 
+chiller, the refrigerant absorbs heat from the coolant cycle. In the evaporator the refrigerant absorbs heat from the cabin air and continues its way back to the compressor. 
 
 
 

@@ -5,7 +5,7 @@ This repository delivers a comprehensive, systems-engineering framework for Data
   
 * **Section 2:** Focuses on the hardware-level co-simulation framework, transient control validation, and the overarching PLM governance model.
 
-## Section 2: System Validation & Engineering Governance
+## Section 2: System Validation & Strategic Governance
 
 The complete executable models and the underlying management tool are available below:
 
@@ -13,11 +13,11 @@ The complete executable models and the underlying management tool are available 
 * Utilize the integrated lifecycle management workbook here: [PLM Performance Dashboard (Excel)](https://github.com/MajidMehrnia/Systems-Strategy-and-Lifecycle-Leadership/raw/main/PLM-Performance-Dashboard.xlsx)
 
 
-To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework that couples GT-SUITE and Simulink. GT-SUITE handles the complex, real-gas multi-physics of the refrigerant cycle—including transient phase changes inside the **centrifugal compressor** stage. Parallelly, the core control logic is built within Simulink, handles **evaporator, chillers and condenser** while simultaneously modeling the hydronic coolant loops and their thermal inertia against the ambient tropical sink house-tuning the algorithms that dynamically modulate compressor operating speeds, and expansion valve configurations to stabilize temperatures under volatile server heat loads. The working fluid in this system is R717 (Ammonia).
+To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework that couples GT-SUITE and Simulink. GT-SUITE handles the complex, real-gas multi-physics of the refrigerant cycle, including transient phase changes inside the **centrifugal compressor** stage. Parallelly, the core control logic is built within Simulink, handles **evaporator, chillers and condenser** while simultaneously modeling the hydronic coolant loops and their thermal inertia against the ambient tropical sink house-tuning the algorithms that dynamically modulate compressor operating speeds, and expansion valve configurations to stabilize temperatures under volatile server heat loads. The working fluid in this system is R717 (Ammonia).
 
 Managing a multi-domain system of this complexity requires rigid configuration control to prevent costly field failures or supply chain bottlenecks. While global enterprises typically deploy heavy, enterprise-grade PLM platforms to govern these workflows such as **Dassault Systèmes ENOVIA (3DEXPERIENCE)** or **Siemens Teamcenter**, the underlying principles of engineering discipline remain completely tool-agnostic. In smaller companies, lean business units, or agile environments, this exact governance is regularly and effectively executed utilizing highly structured, macro-enabled spreadsheets integrated with disciplined, email-driven formal sign-offs.
 
-Consequently, the entire product lifecycle in this project is governed by the PLM framework, demonstrating how a robust "Single Source of Truth" can be established. This system integrates technical requirements with engineering execution by establishing strict document revision controls, transitioning engineering bills of materials (EBOM) to manufacturing skids (MBOM), and enforcing disciplined change log workflows (ECR/ECO/ECN). Ultimately, every technical optimization—such as power consumption reductions or material reusability—is directly linked to target costing and ROI models, proving that robust engineering governance is a direct driver of corporate profitability.
+Consequently, the entire product lifecycle in this project is governed by the PLM framework, demonstrating how a robust "Single Source of Truth" can be established. This system integrates technical requirements with engineering execution by establishing strict document revision controls, transitioning engineering bills of materials (EBOM) to manufacturing skids (MBOM), and enforcing disciplined change log workflows (ECR/ECO/ECN). Ultimately, every technical optimization—such as power consumption reductions or material reusability, is directly linked to target costing and ROI models, proving that robust engineering governance is a direct driver of corporate profitability.
 
 
 ## Strategic Governance & Lifecycle Execution: from Idea to Aftermarket

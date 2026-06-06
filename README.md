@@ -3,9 +3,9 @@ This repository delivers a comprehensive, systems-engineering framework for Data
 
 * **Section 1:** Covers the macro-level conceptual cooling architecture and links to the foundational system design. Available in my companion repository: [Data-Center-Process-Cooling](https://github.com/MajidMehrnia/Data-Center-Process-Cooling)
   
-* **Section 2:** Focuses on the hardware-level co-simulation framework, transient control validation, and the overarching PLM governance model.
+* **Section 2:** The following section focuses on the hardware-level co-simulation framework, transient control validation, and the overarching PLM governance model.
 
-## Section 2: System Validation & Strategic Governance
+## System Design, Simulation, Validation & Strategic Governance
 
 To bridge the gap between abstract thermodynamics and physical deployment, this specific repository delivers a high-fidelity co-simulation framework executed primarily within MATLAB/Simulink and Simscape, with a dedicated interface to GT-SUITE. The complete plant model—including the evaporator, condenser, and secondary hydronic coolant loops with their thermal inertia against the ambient tropical sink—is built within Simscape using R717 (Ammonia) as the working fluid. To capture the complex, real-gas multi-physics and dynamic stall behaviors of the centrifugal compressor stage, a high-fidelity model from GT-SUITE is dynamically linked into the main simulation loop. Parallelly, the core control logic in Simulink house-tunes the algorithms that dynamically modulate compressor operating speeds and expansion valve configurations to stabilize process fluid temperatures under volatile server heat loads.
 
